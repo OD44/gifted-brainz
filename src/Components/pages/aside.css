@@ -1,0 +1,136 @@
+.mat{
+    width: 20%;
+}
+.gift{
+    display: flex;
+    gap: 30%;
+}
+.mo{
+    width: 35%;
+}
+.point span{
+    font-size: medium;
+}
+.dash{
+    background-color: blue;
+    display: flex;
+    padding-top: 10px;
+    width:90% ;
+    padding-left: 25px;
+    gap: 15px;
+}
+.dash img{
+    width: 20%;
+    padding-bottom: 10px;
+}
+.run{
+    display: flex;
+    padding-top: 10px;
+    width:100% ;
+    padding-left: 25px;
+    margin-top: 30%;
+    gap: 20px
+
+}
+.run img{
+    width: 15%;
+}
+.lead{
+    display: flex;
+    padding-top: 10px;
+    width:100% ;
+    padding-left: 25px;
+    margin-top: 30px;
+    gap: 22px
+
+}
+.lead img{
+    width: 12%;
+}
+.spin{
+    display: flex;
+    padding-top: 10px;
+    width:100% ;
+    padding-left: 22px;
+    margin-top: 30px;
+    gap: 20px
+
+}
+.spin img{
+    width: 15%;
+}
+.course{
+    display: flex;
+    padding-top: 10px;
+    width:100% ;
+    padding-left: 25px;
+    margin-top: 30px;
+    gap: 24px
+}
+.course img{
+    width: 12%;
+}
+.pay{
+    display: flex;
+    padding-top: 10px;
+    width:100% ;
+    padding-left: 25px;
+    margin-top: 30px;
+    gap: 22px
+}
+.pay img{
+    width: 12%;
+}
+.ref{
+    display: flex;
+    padding-top: 10px;
+    width:100% ;
+    padding-left: 25px;
+    margin-top: 30px;
+    gap: 22px
+}
+.ref img{
+    width: 12%;
+}
+.earn{
+    display: flex;
+    padding-top: 10px;
+    width:100% ;
+    padding-left: 25px;
+    margin-top: 30px;
+    gap: 22px
+}
+.earn img{
+    width: 12%;
+}
+.all{
+    background-color: blue;
+    margin-top: 30%;
+    color: white;
+}
+.all img{
+    width: 12%;
+}
+.set{
+    display: flex;
+    padding-top: 35px;
+    width:100% ;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    gap: 22px
+}
+.help{
+    display: flex;
+    padding-top: 10px;
+    width:100% ;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    gap: 22px
+}
+.com{
+    display: flex;
+    padding-top: 10px;
+    width:100% ;
+    padding-left: 25px;
+    gap: 22px
+}
