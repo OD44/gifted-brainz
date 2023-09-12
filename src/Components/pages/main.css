@@ -1,0 +1,135 @@
+.eng{
+    width: 100%;
+    padding: 10px 30px;
+}
+.main-side{
+    width: 80%;
+}
+.wait{
+    width: 100%;
+}
+.bod{
+    display: flex;
+    gap: 25px;
+    padding-top: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+.bod img{
+    height: 3vh;
+}
+.mom{
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding:15px 10px;
+    align-items: center;
+}
+.total{
+    width: 100%;
+}
+.mom input{
+    border: none;
+    outline: none;
+}
+.eat img{
+    height: 7vh;
+}
+.total{
+    display: flex;
+    gap: 35px;
+    margin-top: 30px;
+}
+.ing{
+    background-color: blue;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    height: 14vh;
+}
+.point{
+    background-color: green;
+    padding: 20px 70px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    height: 14vh;
+}
+.rem{
+    background-color: orangered;
+    padding: 20px 60px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    height: 14vh;
+}
+.wait{
+    padding-top: 50px;
+}
+.task{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    border-bottom: solid black 1px;
+    width: 95%;
+    justify-content: space-between;
+}
+.fat{
+    display: flex;
+    gap: 30px;
+}
+.the{
+    padding-left: 50px;
+}
+.ur{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 20px;
+    border-bottom: solid black 1px;
+    width: 95%;
+    justify-content: space-between;
+}
+.hmm{
+    display: flex;
+    gap: 80px;
+}
+.at{
+    padding-left: 30px;
+}
+.pri{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 20px;
+    border-bottom: solid black 1px;
+    width: 95%;
+    justify-content: space-between;
+}
+.pom{
+    display: flex;
+    gap: 80px;
+}
+.so{
+    padding-left: 30px;
+}
+.into{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 20px;
+    border-bottom: solid black 1px;
+    width: 95%;
+    justify-content: space-between;
+}
+.pts{
+    display: flex;
+    gap: 80px;
+}
+.ion{
+    padding-left: 30px;
+}
