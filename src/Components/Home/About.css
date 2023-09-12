@@ -1,0 +1,38 @@
+.aboutpage{
+    background-color: blue;
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.about_content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+}
+.about_content h1{
+    font-size: 40px;
+}
+.about_content p{
+    font-size: 30px;
+    text-align: justify;
+}
+
+
+@media screen and (max-width:960px) {
+    .about_content{
+        width: 80%;
+        gap: 20px;
+    }
+    .about_content h1{
+        font-size: 30px;
+    }
+    .about_content p{
+        font-size: 25px;
+    }
+}

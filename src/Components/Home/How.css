@@ -1,0 +1,102 @@
+.how{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 35px;
+    margin-bottom: 90px;
+}
+.how h1{
+    border: 5px solid black;
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 15px 70px;
+    margin-top: 90px;
+}
+.all{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+
+.reg{
+    display: flex;
+    gap: 30px;
+
+}
+.reg1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.reg1 p{
+    width: 70%;
+}
+.reg{
+    display: flex;
+    gap: 30px;
+
+}
+.reg1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.reg1 p{
+    width: 70%;
+}
+.choose{
+    display: flex;
+    gap: 50px;
+}
+.choose1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.choose1 p{
+    width: 60%;
+}
+.refer{
+    display: flex;
+    gap: 50px;
+}
+.refer1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.refer1 p{
+    width: 75%;
+}
+
+@media screen and (max-width:960px) {
+    .how{
+        font-size: 25px;
+    }
+    .how h1{
+        width: 80%;
+        text-align: center;
+        font-size: 30px;
+        padding: 15px 20px;
+    }
+    .all{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .reg{
+        display: flex;
+
+    }
+    .take{
+        display: flex;
+    }
+}

@@ -1,0 +1,147 @@
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.work h1{
+    border: 5px solid black;
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 15px 70px;
+    margin-top: 90px;
+    text-align: center;
+    /* width: 100%; */
+}
+.part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    margin-left: 250px;
+    margin-top: 70px;
+    margin-bottom: 90px;
+    gap: 70px;
+    color: rgb(97, 96, 96);
+}
+.part p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.part1{
+    display: flex;
+}
+
+.first_part{
+    width: 50%;
+}
+.first_part img{
+    width: 60%;
+}
+.first_part p{
+    width: 85%;
+}
+.second_part{
+    width: 50%;
+}
+.second_part img{
+    width: 65%;
+}
+.second_part p{
+    width: 70%;
+}
+.part2{
+    display: flex;
+}
+.f_part{
+    width: 50%;
+}
+.f_part img{
+    width: 65%;
+}
+.f_part p{
+    width: 75%;
+}
+.t_part{
+    width: 50%;
+}
+.t_part img{
+    width: 60%;
+}
+.t_part p{
+    width: 70%;
+}
+
+
+@media screen and (max-width:960px) {
+    .work{
+        width: 100%;
+    }
+    .work h1{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px;
+        text-align: center;
+        padding: 15px 20px;
+    }
+    .part{
+        margin-left: 0;
+        width: 100%;
+    }
+    .part p{
+        font-size: 25px;
+
+    }
+    .part1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+    .first_part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .first_part img {
+        width: 100%;
+    }
+    .second_part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .second_part img{
+        width: 100%;
+    }
+    .part2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+    .f_part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .f_part img{
+        width: 100%;
+    }
+    .t_part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .t_part img{
+        width: 100%;
+    }
+}

@@ -1,12 +1,12 @@
-// import React from 'react'
-// import './Hero.css'
+import React from 'react'
+import './Hero.css'
 
-// const Hero = () => {
-//   return (
-//     <div>
+const Hero = () => {
+  return (
+    <div>
         
-//     </div>
-//   )
-// }
+    </div>
+  )
+}
 
 // export default Hero

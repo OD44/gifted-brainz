@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter, Routes, Route, Router} from 'react-router-dom'
 import Home from './Components/Home/Home';
 import Dashboard from './Components/pages/Dashboard.jsx';
 import Quis from './Components/pages/Quis.jsx';
@@ -19,20 +19,9 @@ const App= ()=> {
   return (
     <BrowserRouter>
     <Routes>
-       <Route path='/' element={<Home/>}/>
-       <Route path="/" element={<Dashboard />} />
-       <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/quiz" element={<Quis />} />
-        <Route path="/quizlead" element={<Quizlead />} />
-        <Route path="/spin" element={<Spin />} />
-        <Route path="/course" element={<Course />} />
-        <Route path="/payment" element={<Payment />} />
-        <Route path="/refe" element={<Refe />} />
-        <Route path="/earnings" element={<Earnings />} />
-        <Route path="/settings" element={<Settings />} />
-        <Route path="/get" element={<Get />} />
-        <Route path="/community" element={<Comm />} />
-      </Routes>
+      <Route path='/' element={<Home/>}/>
+      
+    </Routes>
     </BrowserRouter>
 
   );

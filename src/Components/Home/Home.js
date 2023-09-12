@@ -1,15 +1,15 @@
-// import React from 'react'
-// import Topper from './Topper'
-// import Hero from './Hero'
+import React from 'react'
+import Topper from './Topper'
+import Hero from './Hero'
 
 
-// const Home = () => {
-//   return (
-//     <div>
-//         <Topper/>
-//         <Hero/>
-//     </div>
-//   )
-// }
+const Home = () => {
+  return (
+    <div>
+        <Topper/>
+        <Hero/>
+    </div>
+  )
+}
 
-// export default Home
+export default Home

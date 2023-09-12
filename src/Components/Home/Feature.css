@@ -1,0 +1,131 @@
+.feature{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 35px;
+    margin-bottom: 90px;
+}
+.feature h1{
+    border: 5px solid black;
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 15px 70px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.feat{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.fast{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 35px;
+}
+.fast img{
+    width: 100%;
+}
+.fast1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.spin{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 35px;
+}
+.spin1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+.imag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.imag img{
+    width: 62%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ref{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 35px;
+}
+.ref1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 55px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.imag1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+.imag1 img{
+    width: 70%;
+}
+
+@media screen and (max-width:960px) {
+    .feature{
+        font-size: 25px;
+    }
+    .feature h1{
+        text-align: center;
+        font-size: 30px;
+        width: 80%;
+    }
+    .feat{
+
+        flex-direction: column;
+    }
+    .fast{
+        width: 100%;
+        border-radius: 55px;
+    }
+    .spin{
+        width: 100%;
+    }
+    .ref{
+        width: 100%;
+    }
+    .fast{
+        border-top-right-radius: 27px;
+        border-top-left-radius: 27px;
+    }
+}

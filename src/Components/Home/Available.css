@@ -1,0 +1,282 @@
+.available{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 35px;
+}
+.available h1{
+    border: 5px solid black;
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 15px 70px;
+    margin-top: 90px;
+    text-align: center;
+}
+.type{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.type1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 45%;
+}
+.ui{
+    display: flex;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    background-color: hsla(242, 99%, 66%, 1);
+    padding: 40px;
+    border-radius: 25px;
+}
+.ui p{
+    color: rgb(192, 185, 185);
+}
+.ui img{
+    width: 100%;
+}
+.ui button{
+    background-color: transparent;
+    border: none;
+}
+.ui1{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+.ui2{
+    display: flex;
+    flex-direction: column;
+}
+.backend{
+    display: flex;
+    background-color: hsla(242, 99%, 66%, 1);
+    padding: 40px;
+    justify-content: space-between;
+    border-radius: 25px;
+    
+}
+.backend img{
+    width: 50px;
+    height: 50px;
+}
+.backend1{
+    display: flex;
+    gap: 20px;
+}
+.backend1 h4{
+    width: 50%;
+}
+.frontend{
+    display: flex;
+    background-color: hsla(242, 99%, 66%, 1);
+    padding: 40px;
+    /* gap: 20px; */
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.frontend img{
+    width: 50px;
+    height: 50px;
+}
+.frontend1{
+    display: flex;
+    gap: 20px;
+}
+.frontend1 h4{
+    width: 50%;
+}
+.page{
+    display: flex;
+    background-color: hsla(242, 99%, 66%, 1);
+    padding: 40px;
+    /* gap: 20px; */
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.page img{
+    width: 50px;
+    height: 50px;
+}
+.page1{
+    display: flex;
+    gap: 20px;
+}
+.page1 h4{
+    width: 100%;
+}
+.advance0{
+    display: flex;
+    background-color: hsla(242, 99%, 66%, 1);
+    padding: 40px;
+    /* gap: 20px; */
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.advance0 img{
+    width: 50px;
+    height: 50px;
+}
+.advance1{
+    display: flex;
+    gap: 20px;
+}
+.advance1 h4{
+    width: 50%;
+}
+.q{
+    display: flex;
+    background-color: hsla(242, 99%, 66%, 1);
+    padding: 30px;
+    /* gap: 20px; */
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.q img{
+    width: 50px;
+    height: 50px;
+}
+.q1{
+    display: flex;
+    gap: 20px;
+}
+.q1 h4{
+    width: 60%;
+}
+.type2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 45%;
+}
+.graph{
+    display: flex;
+    background-color: hsla(242, 99%, 66%, 1);
+    padding: 40px;
+    /* gap: 20px; */
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.graph img{
+    width: 50px;
+    height: 50px;
+}
+.graph1{
+    display: flex;
+    gap: 20px;
+}
+.graph1 h4{
+    width: 100%;
+}
+.health{
+    display: flex;
+    background-color: hsla(242, 99%, 66%, 1);
+    padding: 40px;
+    /* gap: 20px; */
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.health img{
+    width: 50px;
+    height: 50px;
+}
+.health1{
+    display: flex;
+    gap: 20px;
+}
+.health1 h4{
+    width: 60%;
+}
+.true{
+    display: flex;
+    background-color: hsla(242, 99%, 66%, 1);
+    padding: 40px;
+    /* gap: 20px; */
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.true img{
+    width: 50px;
+    height: 50px;
+}
+.true1{
+    display: flex;
+    gap: 20px;
+}
+.true1 h4{
+    width: 100%;
+}
+.care{
+    display: flex;
+    background-color: hsla(242, 99%, 66%, 1);
+    padding: 40px;
+    /* gap: 20px; */
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.care img{
+    width: 50px;
+    height: 50px;
+}
+.care1{
+    display: flex;
+    gap: 20px;
+}
+.care1 h4{
+    width: 60%;
+}
+.nft{
+    display: flex;
+    background-color: hsla(242, 99%, 66%, 1);
+    padding: 40px;
+    /* gap: 20px; */
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.nft img{
+    width: 50px;
+    height: 50px;
+}
+.nft1{
+    display: flex;
+    gap: 20px;
+}
+.nft1 h4{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:960px) {
+    .type{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        width: 90%;
+    }
+    .available{
+        font-size: 25px;
+    }
+    .available h1{
+        width: 80%;
+        text-align: center;
+        font-size: 30px;
+        padding: 15px 20px;
+    }
+    .type1{
+        width: 100%;
+    }
+    .ui{
+        padding: 50px;
+    }
+    .type2{
+        width: 100%;
+    }
+}

@@ -1,0 +1,185 @@
+.active{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 40px;
+}
+.learn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsla(242, 99%, 66%, 1);
+    color: white;
+    gap: 20px;
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+    border-radius: 35px;
+    box-shadow: 4px 4px 4px 4px rgb(0, 0, 0, 0.12);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.learn p{
+    width: 65%;
+
+}
+.image{ 
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    width: 60%;
+}
+.btn0{
+    display: flex;
+    justify-content: space-between;
+}
+.btn0 button{
+    padding: 25px 70px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    border: none;
+    border-radius: 25px;
+    color: hsla(242, 99%, 66%, 1);
+    background-color: white;
+}
+.btn0 img{
+    width: 30%;
+}
+.quiz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    color: rgb(77, 73, 73);
+    gap: 30px;
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 4px rgb(0, 0, 0, 0.12);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.quiz p{
+    width: 65%;
+}
+.image1{ 
+    display: flex;
+    justify-content: center;
+}
+.image1 img{
+    width: 70%;
+}
+.btn1 button{
+    padding: 25px 70px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: hsla(242, 99%, 66%, 1);
+}
+.btn1 img{
+    width: 30%;
+}
+.earn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    color: rgb(77, 73, 73);
+    gap: 30px;
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 4px rgb(0, 0, 0, 0.12);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.earn1 p{
+    width: 60%;
+}
+.image2{ 
+    display: flex;
+    justify-content: center;
+}
+.image2 img{
+    width: 60%;
+}
+.btn2 button{
+    padding: 25px 70px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: hsla(242, 99%, 66%, 1);
+}
+.btn2 img{
+    width: 30%;
+}
+
+@media screen and (max-width:950px) {
+    .more{
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .learn{
+        width: 80%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .learn p{
+        width: 75%;
+    }
+    .quiz{
+        width: 80%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .quiz p{
+        width: 75%;
+    }
+    .earn1{
+        width: 80%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .earn1{
+        width: 70%;
+    }
+    .btn0{
+        width: 90%;
+    }
+    .btn1{
+        width: 90%;
+    }
+    .btn2{
+        width: 90%;
+    }
+}
